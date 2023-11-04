@@ -1,0 +1,81 @@
+
+body, html {
+  height: 100%;
+}
+
+/* Fondo y tamaño de la app */
+body {
+  background-color: #E5EDE9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de texto */
+h1, h2, h3, p {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: black;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Estilos de cajitas (inputs) */
+input[type="text"], input[type="date"], input[type="time"], input[type="number"] {
+  background-color: #DFF0D8; /* Verde claro */
+  color: black;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Estilos de botones */
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos de palabras especiales */
+.special-words {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/* Estilos de palabras "Campo Requerido" */
+.required-field-label {
+  color: #F0AD4E; /* Amarillo oscuro */
+}
+
+/* Estilos de estrellitas */
+.star {
+  color: red;
+  font-size: 1.2em;
+}
+
+/* Iconos */
+.icon {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Plan de Reserva en el Restaurante */
+.plan-de-reserva {
+  background-color: #343A40; /* Gris oscuro */
+  color: white;
+  padding: 20px;
+}
+
+/* Otros estilos específicos según tu estructura HTML */
+
