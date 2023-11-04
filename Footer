@@ -1,0 +1,30 @@
+import React from 'react';
+
+const Footer = () => {
+  return (
+    <footer>
+      <div>
+        <h3>Política de Privacidad</h3>
+        <p>Texto de la política de privacidad...</p>
+      </div>
+      <div>
+        <h3>Quiénes Somos</h3>
+        <p>Información sobre nosotros...</p>
+      </div>
+      <div>
+        <h3>Contactanos</h3>
+        <p>Información de contacto...</p>
+      </div>
+      <div>
+        <h3>Reservas en Otros Restaurantes</h3>
+        <p>Información sobre otras ubicaciones...</p>
+      </div>
+      <div>
+        <h3>Política de Devolución</h3>
+        <p>Información sobre devoluciones...</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
